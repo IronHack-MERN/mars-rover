@@ -36,7 +36,7 @@ Begin with the a switch statement. Based off of which function is being called, 
 
 Test these functions using the Chrome Console to make sure they work. Remember, the console.log() function can be used to log anything. You can use this to see which direction your rover is currently facing.
 
-### Iteration 3 | Moving the Rover
+## Iteration 3 | Moving the Rover
 #### The Rover Object’s position
 In order to move the rover around, we have to keep track of the rover’s position.
 
@@ -56,7 +56,7 @@ If the rover is facing south and moves forward, we would increase the y by 1.
 
 Fill in this logic in the moveForward function. After each movement, console.log the rover’s coordinates so you can see where it is positioned.
 
-### Iteration 4 | Commands
+## Iteration 4 | Commands
 Create a function that receives a list of commands. These commands will be the first letter of either (f)orward, (r)ight, or (l)eft.
 
 To test it, use the string: ‘rffrfflfrff’.
@@ -65,17 +65,17 @@ To test it, use the string: ‘rffrfflfrff’.
 
 Use a loop to iterate over the string. Inside of this loop, write a switch or if statement to call the correct function. For instance, if the letter is f, you’re going to want to call the goForward function.
 
-### Iteration 5 | Tracking
+## Iteration 5 | Tracking
 We want to know where our rover has been. Create a property on the rover object that contains the coordinates of the places it has been. Call this property travelLog.
 
 After each move, push the coordinates of the previous space to the travelLog array. After the rover has finished its moves, print out all of the spaces the rover has traveled over.
 
-### Bonus | Enforce Boundaries
+## Bonus | Enforce Boundaries
 At some point you may have accidentally run our rover off of the grid. If you recall, our grid is 10x10.
 
 Make sure your rover doesn’t accidentally roam off the map!
 
-### Bonus | Other Suggested Features
+## Bonus | Other Suggested Features
 If you found the first few iterations of the exercise easy, try implementing the following features:
 - Moving Backwards: Create another function called moveBackward that will move the rover back. This will be very similiar to the moveForward function.
 - Validate Inputs: If we enter a letter into our inputs that isn’t a rover command, nothing happens. For example ffzzy would simply move forward twice. Add validation so that the inputs must be f, b, r, or l.
