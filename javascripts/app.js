@@ -1,7 +1,6 @@
 // Rover Object Goes Here
 // ======================
 
-// ======================
 function turnLeft(rover){
   console.log("turnLeft was called!");
 }
