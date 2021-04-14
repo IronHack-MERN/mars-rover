@@ -27,9 +27,9 @@ The rover has a direction attribute. We’ve already provided functions called t
 
 #### Examples
 
-Rover is facing North and turns left => Rover is now facing West
-Rover is facing West and turns left => Rover is now facing South
-Rover is facing North and turns right => Rover is now facing East.
+- Rover is facing North and turns left => Rover is now facing **West**
+- Rover is facing West and turns left => Rover is now facing **South
+- Rover is facing North and turns right => Rover is now facing East.
 
 #### Suggested Approach
 Begin with the a switch statement. Based off of which function is being called, turn the rover in the correct direction based off of its current direction.
