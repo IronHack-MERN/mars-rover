@@ -42,7 +42,7 @@ In order to move the rover around, we have to keep track of the rover’s positi
 
 Positions can be represented as a pair of coordinates, x and y. Add two properties to your rover called x and y. Their default values will both be 0.
 
-#### Moving Forward
+#### **Moving Forward**
 Once the rover has a position, it’s time to move it.
 
 #### How to Move
@@ -59,7 +59,7 @@ Fill in this logic in the moveForward function. After each movement, console.log
 ## Iteration 4 | Commands
 Create a function that receives a list of commands. These commands will be the first letter of either (f)orward, (r)ight, or (l)eft.
 
-To test it, use the string: ‘rffrfflfrff’.
+To test it, use the string: ‘**rffrfflfrff**’.
 
 #### Suggested Approach
 
