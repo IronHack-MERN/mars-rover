@@ -77,8 +77,11 @@ Make sure your rover doesn’t accidentally roam off the map!
 
 ## Bonus | Other Suggested Features
 If you found the first few iterations of the exercise easy, try implementing the following features:
-- **Moving Backwards**: Create another function called moveBackward that will move the rover back. This will be very similiar to the moveForward function.
+- **Moving Backwards**: Create another function called moveBackward that will move the rover back. This will be very similiar to the moveForward function. 
+
 - **Validate Inputs**: If we enter a letter into our inputs that isn’t a rover command, nothing happens. For example ffzzy would simply move forward twice. Add validation so that the inputs must be f, b, r, or l.
-The following require you to actually create a grid for the rover to move around on. In code, these grids are often represented as two dimensional arrays.
-- **Obstacles**: Create obstacles for the rover. If the rover’s next move would run it into an obstacle, stop it from moving forward and report the obstacle as found with console.log.
+The following require you to actually create a grid for the rover to move around on. In code, these grids are often represented as two dimensional arrays.  
+
+- **Obstacles**: Create obstacles for the rover. If the rover’s next move would run it into an obstacle, stop it from moving forward and report the obstacle as found with console.log.  
+
 - **Other Rovers**: Add additional rovers to the map. Have them take turns moving. If one rover is going to run into the other, you should stop the rover and console.log a message saying so.
